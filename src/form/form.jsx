@@ -3,7 +3,7 @@ import Step1 from "./step1";
 import Step2 from "./step2";
 import Step3 from "./step3";
 import Submit from "./submit";
-
+import "./style.css";
 
 function Form() {
     const [curStep, setCurStep] = useState(1);
@@ -19,6 +19,7 @@ function Form() {
     const handleChange = (event) => {
         setFormData({...formData, [event.target.name]: event.target.value})
     }
+    
     switch (curStep) {
         case 1:
             return (

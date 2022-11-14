@@ -4,6 +4,8 @@ function Step2 (props) {
     return(
         <>
             <form>
+            <h2>Multi Step Form</h2>
+                <h4>Step 2</h4>
                 <p><lable htmlFor="country">Country :</lable>
                 <input type="text" name="country" value={data.country} onChange={handleChange} /></p>
                 <p><lable htmlFor="city">City :</lable>

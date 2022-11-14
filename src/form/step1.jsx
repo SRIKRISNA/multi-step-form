@@ -4,6 +4,8 @@ function Step1 (props) {
     return(
         <>
             <form>
+                <h2>Multi Step Form</h2>
+                <h4>Step 1</h4>
                 <p><lable htmlFor="fname">First Name :</lable>
                 <input type="text" name="fname" value={data.fname} onChange={handleChange} /></p>
                 <p><lable htmlFor="lname">Last Name :</lable>

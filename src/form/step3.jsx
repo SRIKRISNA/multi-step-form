@@ -4,8 +4,10 @@ function Step3 (props) {
     return(
         <>
             <form>
+            <h2>Multi Step Form</h2>
+                <h4>Step 3</h4>
                 <p><lable htmlFor="email">Email :</lable>
-                <textarea type="email" name="email" value={data.email} onChange={handleChange} /></p>
+                <input type="email" name="email" value={data.email} onChange={handleChange} /></p>
                 <p><lable htmlFor="phone">Phone :</lable>
                 <input type="text" name="phone" value={data.phone} onChange={handleChange} /></p>
                 <button onClick={prev}>Prev</button>
