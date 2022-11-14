@@ -4,10 +4,12 @@ function Step1 (props) {
     return(
         <>
             <form>
-                <p><lable htmlFor="name">Name :</lable>
-                <input type="text" name="name" value={data.name} onChange={handleChange} /></p>
-                <p><lable htmlFor="email">Email :</lable>
-                <input type="email" name="email" value={data.email} onChange={handleChange} /></p>
+                <p><lable htmlFor="fname">First Name :</lable>
+                <input type="text" name="fname" value={data.fname} onChange={handleChange} /></p>
+                <p><lable htmlFor="lname">Last Name :</lable>
+                <input type="text" name="lname" value={data.lname} onChange={handleChange} /></p>
+                <p><lable htmlFor="nickName">Nick Name :</lable>
+                <input type="text" name="nickName" value={data.nickName} onChange={handleChange} /></p>
                 <button onClick={next}>Next</button>
             </form>
         </>

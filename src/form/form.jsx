@@ -8,7 +8,7 @@ import Submit from "./submit";
 function Form() {
     const [curStep, setCurStep] = useState(1);
     const [formData, setFormData] = useState({
-        name: "", email: "", address: "", pincode: "", message: ""
+        fname: "", lname:"", nickName:"", country:"", city: "", pincode: "", email:"", phone: ""
     })
     const prev = () => {
         setCurStep(curStep-1);
