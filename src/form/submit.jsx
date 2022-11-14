@@ -10,8 +10,9 @@ function Submit (props) {
     )
     return(
         <>
-            <div>
+            <div style={{color:"#fff"}}>
                 <ul>{listItems}</ul>
+                <p >user has Successfully subscribed</p>
                 <button type="submit">Submit</button>
             </div>
         </>

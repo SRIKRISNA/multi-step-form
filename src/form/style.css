@@ -8,8 +8,11 @@ form{
     padding: 30px 40px;
     display: inline-block;
 }
-td{
-    border: 1px solid grey;
+li{
+    /* border: 1px solid grey; */
+    list-style-type: none;
+    padding: 0px;
+    /* display: table-caption; */
 }
 button{
     height: 30px;
